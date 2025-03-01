@@ -1,22 +1,90 @@
+header{
+    width:100%;
+position: fixed;
+z-index: 1000;
+background-color: transparent ;
+background: linear-gradient(to bottom,0% transparent,100% #111);
+}
 
-.shape{
+.head-btn{
+    display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
+    list-style: none;
+    gap:6.6rem;
+   font-family:monospace;
+    font-size: 1.5rem;
+   font-weight: 700;
+   
     
 }
-.about{
-    font-size: 2rem;
-    text-decoration: underline;
+.head-btn a{
+    text-decoration: none;
+    color: white;
 }
-.abc{
+.button a{
+    text-decoration: none;
+    color:saddlebrown;
+}
+.contact{
+    text-align: center;
+    text-decoration: underline;
+
+}
+.form label{
+    display: block;
+    font-size:1rem;
+}
+.form input{
+    border-radius: 18rem;
+    gap: 1rem;
+}
+.destination_page{
+    background-color:#111;
+    margin-top: 6rem;
+    scroll-margin-top: 90px;
+    padding: 90px 50px;
+}
+.destination_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(249, 247, 247, 0.964);
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+
+}
+.main-form{
+    display: grid;
+    gap: 1rem;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+.xyz{
     font-size: 1rem;
 }
-.sub-div{
-    display: flex;
-    background-color: aliceblue;
+.main{
+    background-color:aliceblue;
 }
-.about-1{
-
-    font-size: 2.5rem;
+.destination_page{
+    margin-top: 5rem;
 }
