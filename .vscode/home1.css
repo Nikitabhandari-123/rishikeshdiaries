@@ -2,7 +2,7 @@ header{
     width:100%;
 position: fixed;
 z-index: 1000;
-background-color: transparent ;
+background-color: transparent;
 background: linear-gradient(to bottom,0% transparent,100% #111);
 }
 
@@ -16,8 +16,6 @@ background: linear-gradient(to bottom,0% transparent,100% #111);
    font-family:monospace;
     font-size: 1.5rem;
    font-weight: 700;
-   
-    
 }
 .head-btn a{
     text-decoration: none;
@@ -30,7 +28,6 @@ background: linear-gradient(to bottom,0% transparent,100% #111);
 .contact{
     text-align: center;
     text-decoration: underline;
-
 }
 .form label{
     display: block;
